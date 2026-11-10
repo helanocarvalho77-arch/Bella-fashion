@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bella Fashion Goianésia | Black Belas até 70% OFF</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf5f0;--ink:#1b1613;--mut:#6b5f57;--card:#fff;--line:#e8dccf;--gold:#a9803a;--goldl:#d9b46a;--blk:#171210;--blush:#f3dfd6;--wa:#1f9d55;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14100e;--ink:#f4ebe3;--mut:#b5a89d;--card:#1d1714;--line:#3a2f28;--gold:#d9b46a;--blush:#2a1f1a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14100e;--ink:#f4ebe3;--mut:#b5a89d;--card:#1d1714;--line:#3a2f28;--gold:#d9b46a;--blush:#2a1f1a;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 Jost,system-ui,sans-serif;padding-bottom:84px}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;margin:0;line-height:1.05}
+a{color:inherit}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+h2{font-size:clamp(30px,6vw,46px);font-weight:600;margin-bottom:10px}
+.sub{color:var(--mut);max-width:56ch;margin:0 0 28px}
+:focus-visible{outline:3px solid var(--goldl);outline-offset:2px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:var(--wa);color:#fff;text-decoration:none;font-weight:600;font-size:18px;padding:16px 26px;border-radius:999px;border:0;cursor:pointer;min-height:54px}
+.btn:hover{filter:brightness(1.08)}
+.btn.g{background:transparent;color:inherit;border:1.5px solid currentColor;font-weight:500}
+.top{position:sticky;top:0;z-index:20;background:var(--blk);color:#f4ebe3;padding-top:env(safe-area-inset-top,0px)}
+.top .w{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font:600 24px "Cormorant Garamond",serif;color:var(--goldl);text-decoration:none;letter-spacing:.02em}
+.top .btn{padding:9px 18px;font-size:15px;min-height:40px}
+.hero{background:var(--blk);color:#f4ebe3;padding:52px 0 60px}
+.hero .tag{display:inline-block;border:1px solid var(--goldl);color:var(--goldl);padding:5px 14px;border-radius:999px;font-size:14px;margin-bottom:18px}
+.hero h1{font-size:clamp(46px,11vw,92px);font-weight:700;max-width:12ch}
+.hero h1 em{font-style:normal;color:var(--goldl)}
+.hero p{max-width:46ch;color:#d8cbc0;font-size:19px;margin:18px 0 28px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.open{margin-top:18px;font-size:15px;color:#d8cbc0}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:#888;margin-right:8px}
+.dot.on{background:#3ddc84}
+.prices{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.p{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:10px}
+.p .sw{display:flex;gap:6px}
+.p .sw i{width:26px;height:26px;border-radius:50%;border:2px solid var(--card);box-shadow:0 0 0 1px var(--line)}
+.p .pr{font:700 52px "Cormorant Garamond",serif;color:var(--gold);line-height:1}
+.p .pr small{font:500 16px Jost;color:var(--mut)}
+.p h3{font-size:26px}
+.p p{margin:0;color:var(--mut);font-size:15px}
+.p .btn{margin-top:auto;font-size:16px;padding:12px 18px;min-height:46px}
+.p.hl{background:var(--blk);color:#f4ebe3;border-color:var(--blk)}
+.p.hl p{color:#cfc2b7}.p.hl .pr{color:var(--goldl)}
+.build{background:var(--blush)}
+.box{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;max-width:640px}
+.box label,.box .l{display:block;font-weight:600;margin:16px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips button{font:inherit;font-size:15px;padding:9px 15px;border-radius:999px;border:1.5px solid var(--line);background:transparent;color:inherit;cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--blk);color:#f4ebe3;border-color:var(--blk)}
+.box input{font:inherit;width:100%;padding:12px 14px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);color:inherit}
+.box .btn{width:100%;margin-top:22px}
+.note{font-size:14px;color:var(--mut);margin:12px 0 0}
+.cats{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.cats div{border-radius:16px;padding:18px;min-height:110px;display:flex;align-items:flex-end;font:600 22px/1.1 "Cormorant Garamond",serif;color:#fff}
+.reviews{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.r{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.r q{display:block;font:500 22px/1.25 "Cormorant Garamond",serif;quotes:"“" "”"}
+.r b{display:block;margin-top:14px;font-size:14px;color:var(--gold)}
+.facts{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.f{border-left:3px solid var(--goldl);padding:4px 0 4px 16px}
+.f b{display:block;font:700 30px "Cormorant Garamond",serif}
+.f span{color:var(--mut);font-size:15px}
+.loc{background:var(--blk);color:#f4ebe3}
+.loc .sub{color:#cfc2b7}
+.loc dl{display:grid;grid-template-columns:auto 1fr;gap:8px 20px;margin:0 0 26px}
+.loc dt{color:var(--goldl)}.loc dd{margin:0}
+.loc a{color:var(--goldl)}
+footer{text-align:center;color:var(--mut);font-size:14px;padding:26px 20px}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--blk);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px}
+.bar .btn{flex:1;font-size:17px;padding:13px;min-height:50px}
+@media(min-width:760px){.bar{display:none}body{padding-bottom:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="top"><div class="w"><a class="logo" href="#">Bella Fashion</a><a class="btn" data-wa href="#">WhatsApp</a></div></header>
+
+<main>
+<div class="hero"><div class="w">
+<span class="tag">Black Belas · até 70% OFF</span>
+<h1>Vestido novo, <em>preço de Black.</em></h1>
+<p>Moda feminina, infantil, íntima e calçados em Goianésia. Escolha sua peça e finalize pelo WhatsApp, com envio para todo o Brasil.</p>
+<div class="cta"><a class="btn" data-wa href="#">Quero minha peça agora</a><a class="btn g" href="#montar">Montar meu pedido</a></div>
+<div class="open"><span class="dot" id="dot"></span><span id="open">Verificando horário…</span></div>
+</div></div>
+
+<section id="ofertas"><div class="w">
+<h2>Ofertas da campanha</h2>
+<p class="sub">Preços divulgados nos stories da loja. Peças únicas saem rápido: chame agora e confirme o tamanho.</p>
+<div class="prices">
+<div class="p"><div class="sw"><i style="background:#9fc3e8"></i><i style="background:#2a4fa8"></i></div><h3>Calça de alfaiataria</h3><p>Cintura alta, pregas frontais e cinto forrado. Azul-claro e azul-royal.</p><div class="pr">R$ 29,99</div><a class="btn" data-wa data-msg="Olá! Quero a calça de alfaiataria de R$ 29,99. Ainda tem?" href="#">Quero essa</a></div>
+<div class="p"><div class="sw"><i style="background:#f5b8c4"></i><i style="background:#f4d35e"></i><i style="background:#8fc6e8"></i></div><h3>Vestido infantil</h3><p>Estampado, alças finas com laço e barra com babado leve.</p><div class="pr">R$ 39,99</div><a class="btn" data-wa data-msg="Olá! Quero o vestido infantil de R$ 39,99. Ainda tem? Qual tamanho?" href="#">Quero esse</a></div>
+<div class="p hl"><div class="sw"><i style="background:#0f8a6d"></i><i style="background:#a8dcc4"></i><i style="background:#a9d3f0"></i></div><h3>Conjunto de alfaiataria</h3><p>Blusa ou colete estruturado com calça ou short. Verde-esmeralda, verde-menta e azul-bebê.</p><div class="pr">R$ 99,99</div><a class="btn" data-wa data-msg="Olá! Quero o conjunto de alfaiataria de R$ 99,99. Quais cores e tamanhos tem?" href="#">Quero esse</a></div>
+</div>
+</div></section>
+
+<section class="build" id="montar"><div class="w">
+<h2>Monte seu pedido em 20 segundos</h2>
+<p class="sub">Escolha, toque no botão e a mensagem já chega pronta para a equipe.</p>
+<div class="box">
+<span class="l">O que você procura?</span>
+<div class="chips" id="tipo">
+<button type="button" aria-pressed="false">Vestido longo</button><button type="button" aria-pressed="false">Vestido curto</button><button type="button" aria-pressed="false">Conjunto</button><button type="button" aria-pressed="false">Calça</button><button type="button" aria-pressed="false">Jeans</button><button type="button" aria-pressed="false">Infantil</button><button type="button" aria-pressed="false">Bella Shoes</button><button type="button" aria-pressed="false">Bella Íntima</button><button type="button" aria-pressed="false">Semijoias</button>
+</div>
+<span class="l">Tamanho</span>
+<div class="chips" id="tam">
+<button type="button" aria-pressed="false">P</button><button type="button" aria-pressed="false">M</button><button type="button" aria-pressed="false">G</button><button type="button" aria-pressed="false">GG</button><button type="button" aria-pressed="false">Outro</button>
+</div>
+<label for="cor">Cor ou ocasião (opcional)</label>
+<input id="cor" placeholder="Ex.: vestido rosa para formatura">
+<a class="btn" id="enviar" href="#">Enviar pedido no WhatsApp</a>
+<p class="note">Reservas só mediante pagamento. Combine a forma de pagamento com a equipe no WhatsApp.</p>
+</div>
+</div></section>
+
+<section><div class="w">
+<h2>Tudo que a Bella tem</h2>
+<p class="sub">Coleções para mulheres de diferentes estilos.</p>
+<div class="cats">
+<div style="background:#c9768a">Vestidos longos de festa</div><div style="background:#2f5d8a">Florais rodados</div><div style="background:#171210">Mullet com babados</div><div style="background:#6b4a3a">Jeans e cropped</div><div style="background:#0f8a6d">Alfaiataria</div><div style="background:#d19ab0">Infantil e festa</div><div style="background:#a9803a">Bella Shoes e semijoias</div>
+</div>
+</div></section>
+
+<section style="background:var(--blush)"><div class="w">
+<h2>Clientes reais, looks reais</h2>
+<p class="sub">Mensagens e fotos que clientes enviaram e a loja publicou nos stories.</p>
+<div class="reviews">
+<div class="r"><q>Comprei na cor branca para meu chá revelação, é simplesmente maravilhoso. Atendimento perfeito.</q><b>Cliente via Direct</b></div>
+<div class="r"><q>Cliente linda de Goiânia arrasou na escolha.</q><b>@ju_lopes_123 · Goiânia</b></div>
+<div class="r"><q>Cliente maravilhosa arrasando com nosso vestido Malu.</q><b>@laranios_adv</b></div>
+<div class="r"><q>Vestido dessa loja incrível.</q><b>@fabiolaa_souza</b></div>
+</div>
+</div></section>
+
+<section><div class="w">
+<h2>Por que comprar na Bella</h2>
+<p class="sub">&nbsp;</p>
+<div class="facts">
+<div class="f"><b>58,4 mil</b><span>seguidores no Instagram</span></div>
+<div class="f"><b>Todo o Brasil</b><span>envios diários por Correios, PAC e SEDEX</span></div>
+<div class="f"><b>2 andares</b><span>de loja com provadores e equipe de 10 pessoas</span></div>
+<div class="f"><b>Atendimento direto</b><span>fale com a equipe e feche pelo WhatsApp</span></div>
+</div>
+<p style="margin-top:30px"><a class="btn" data-wa href="#">Falar com a equipe agora</a></p>
+</div></section>
+
+<section class="loc" id="loja"><div class="w">
+<h2>Venha provar</h2>
+<p class="sub">Loja física em Goianésia, Goiás.</p>
+<dl>
+<dt>Endereço</dt><dd>Av. Goiás, 346, entre as ruas 20 e 22, Goianésia, GO, CEP 76380-732</dd>
+<dt>Segunda a sexta</dt><dd>08h às 19h</dd>
+<dt>Sábado</dt><dd>08h às 18h</dd>
+<dt>Telefone</dt><dd><a href="tel:+5562985451905">(62) 98545-1905</a></dd>
+<dt>Instagram</dt><dd><a href="https://instagram.com/loja.bellafashiongsia" rel="noopener">@loja.bellafashiongsia</a></dd>
+</dl>
+<div class="cta"><a class="btn" data-wa href="#">Chamar no WhatsApp</a><a class="btn g" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Goi%C3%A1s+346+Goian%C3%A9sia+GO" rel="noopener">Ver no mapa</a></div>
+</div></section>
+</main>
+<footer>Bella Fashion · Bella Íntima · Bella Shoes · Goianésia, GO</footer>
+
+<div class="bar"><a class="btn" data-wa href="#">Comprar no WhatsApp</a></div>
+
+<script>
+var N="5562985451905",D="Olá! Vim pelo site da Bella Fashion e quero ajuda para escolher uma peça.";
+function wa(t){return "https://wa.me/"+N+"?text="+encodeURIComponent(t)}
+document.querySelectorAll("[data-wa]").forEach(function(a){a.href=wa(a.getAttribute("data-msg")||D);a.target="_blank";a.rel="noopener"});
+function pick(id){var el=document.getElementById(id),v="";el.addEventListener("click",function(e){var b=e.target.closest("button");if(!b)return;el.querySelectorAll("button").forEach(function(x){x.setAttribute("aria-pressed","false")});b.setAttribute("aria-pressed","true");});return function(){var b=el.querySelector('[aria-pressed="true"]');return b?b.textContent:""}}
+var gt=pick("tipo"),gs=pick("tam");
+document.getElementById("enviar").addEventListener("click",function(e){var t=gt(),s=gs(),c=document.getElementById("cor").value.trim();var m="Olá! Quero ver: "+(t||"opções de peças")+(s?", tamanho "+s:"")+(c?", "+c:"")+". O que vocês têm disponível?";this.href=wa(m);this.target="_blank";this.rel="noopener"});
+try{var p=new Intl.DateTimeFormat("en-US",{timeZone:"America/Sao_Paulo",weekday:"short",hour:"numeric",minute:"numeric",hour12:false}).formatToParts(new Date()),g={};p.forEach(function(x){g[x.type]=x.value});var h=(+g.hour%24)+(+g.minute)/60,wd=g.weekday,close=wd==="Sun"?0:wd==="Sat"?18:19,on=close&&h>=8&&h<close;
+document.getElementById("dot").className="dot"+(on?" on":"");document.getElementById("open").textContent=on?"Loja aberta agora até "+close+"h. Atendimento rápido no WhatsApp.":"Fechada agora. Deixe sua mensagem e respondemos no próximo atendimento (seg a sex 8h–19h, sáb 8h–18h).";}catch(e){document.getElementById("open").textContent="Seg a sex 8h–19h · Sáb 8h–18h"}
+</script>
+</body>
+</html>
